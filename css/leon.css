@@ -15,6 +15,7 @@ html {
 
 body {
     font-family: "Work Sans", sans-serif;
+    background-color: transparent !important;
 }
 
 .parent {
@@ -159,7 +160,7 @@ i {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 80%, #e0e0e0 100%),
         url('../imgs/landing.jpg');
     background-size: cover;
-    /* z-index: -1; */
+    z-index: -1;
 }
 
 .landing .intro-text {
@@ -182,6 +183,7 @@ i {
     font-size: 19px;
     line-height: 1.8;
     width: 400px;
+    padding: 0 20px;
 }
 
 /* ===============================  Features  =============================== */
@@ -219,7 +221,7 @@ i {
     line-height: 1.8;
 }
 
-/* Special Heading */
+/* ========================================   Special Heading   ========================================  */
 
 .special-heading {
     color: #c1c2c3;
